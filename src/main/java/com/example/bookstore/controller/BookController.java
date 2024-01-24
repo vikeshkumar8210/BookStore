@@ -45,8 +45,8 @@ public class BookController {
     }
 
     // Endpoint for deleting a book by ID
-    @DeleteMapping("/{id}")
-    public void deleteBook(@PathVariable Long id) {
-        bookService.deleteBook(id);
-    }
+//    @DeleteMapping("/{id}")
+//    public void deleteBook(@PathVariable Long id) {
+//        bookService.deleteBook(id);
+//    }
 }
